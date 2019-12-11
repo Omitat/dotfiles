@@ -1,9 +1,9 @@
 #!/bin/sh
-export AWS_DEFAULT_PROFILE=dwest
-export AWS_PROFILE=dwest
-export SWAPEX_ENVIRONMENT=dwest
+export AWS_DEFAULT_PROFILE=tmorris
+export AWS_PROFILE=tmorris
+export SWAPEX_ENVIRONMENT=tmorris
 export AWS_ACCOUNT_ID=$(aws configure get aws_account_id) \
-DWEST_ACCOUNT_ID=$(aws configure get aws_account_id) \
+TMORRIS_ACCOUNT_ID=$(aws configure get aws_account_id) \
 AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id) \
 AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key) \
 AWS_DEFAULT_REGION=$(aws configure get region)
@@ -13,7 +13,7 @@ function assume_role() {
   role_name=$2
   echo "MFA token: "
   read token
-  tmp_json=$(aws sts assume-role --serial-number arn:aws:iam::${DWEST_ACCOUNT_ID}:mfa/dwest --role-arn arn:aws:iam::$target_account_id:role/$role_name --role-session-name 'RoleSession1' --profile default --token-code $token)
+  tmp_json=$(aws sts assume-role --serial-number arn:aws:iam::${TMORRIS_ACCOUNT_ID}:mfa/tmorris --role-arn arn:aws:iam::$target_account_id:role/$role_name --role-session-name 'RoleSession1' --profile default --token-code $token)
   ec=$?; if [[ $ec == 0 ]]; then
     export AWS_ACCESS_KEY_ID=$(echo $tmp_json | jq --raw-output '.Credentials.AccessKeyId')
     export AWS_SECRET_ACCESS_KEY=$(echo $tmp_json | jq --raw-output '.Credentials.SecretAccessKey')

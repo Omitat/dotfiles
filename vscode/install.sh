@@ -30,10 +30,12 @@ if test "$(which code)"; then
     formulahendry.auto-close-tag
     formulahendry.auto-rename-tag
     idleberg.applescript
+    johnpapa.vscode-peacock
     joshpeng.sublime-babel-vscode
     jpoissonnier.vscode-styled-components
     mauve.terraform
     mikestead.dotenv
+    ms-python.python
     ms-azuretools.vscode-docker
     ms-vscode.Go
     msjsdiag.debugger-for-chrome
@@ -41,6 +43,8 @@ if test "$(which code)"; then
     PKief.material-icon-theme
     rebornix.ruby
     samverschueren.linter-xo
+    sbrink.elm
+    waderyan.gitblame
     whizkydee.material-palenight-theme
     whtouche.vscode-js-console-utils
     wingrunr21.vscode-ruby

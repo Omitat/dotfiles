@@ -1,8 +1,12 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-{
-  "key": "ctrl+shift+cmd+h",
-  "command": "xo.fix",
-  "when": "editorTextFocus"
-}
+  {
+    "key": "ctrl+shift+cmd+h",
+    "command": "xo.fix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+r",
+    "command": "workbench.action.reloadWindow"
+  }
 ]

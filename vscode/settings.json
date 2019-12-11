@@ -30,9 +30,7 @@
   },
   "editor.tabSize": 2,
   "editor.fontFamily": "Operator Mono",
-  "editor.rulers": [
-    100
-  ],
+  "editor.rulers": [100],
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -49,8 +47,8 @@
   "color-highlight.markerType": "dot-after",
   "auto-close-tag.SublimeText3Mode": true,
   "projectManager.vscode.baseFolders": [
-    "/Users/donny/Sites",
-    "/Users/donny/Projects"
+    "/Users/tmorris/Development",
+    "/Users/tmorris/Projects"
   ],
   "projectManager.vscode.ignoredFolders": [
     "node_modules",
@@ -62,8 +60,8 @@
   ],
   "projectManager.vscode.maxDepthRecursion": 1,
   "projectManager.git.baseFolders": [
-    "/Users/donny/Sites",
-    "/Users/donny/Projects"
+    "/Users/tmorris/Development",
+    "/Users/tmorris/Projects"
   ],
   "projectManager.git.ignoredFolders": [
     "node_modules",

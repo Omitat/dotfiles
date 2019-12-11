@@ -1,6 +1,6 @@
 #!/bin/sh
-alias dp='cd ~/Code/developer-portal'
-alias auth='cd ~/Code/identity-auth-web'
-alias dotcom='cd ~/Code/magicleap-com'
+alias dp='cd ~/Development/developer-portal'
+alias auth='cd ~/Development/identity-auth-web'
+alias dotcom='cd ~/Development/magicleap-com'
 
 alias cat='bat'
