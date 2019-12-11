@@ -41,7 +41,7 @@
   "files.trimTrailingWhitespace": true,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "Operator Mono",
-  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.fontSize": 16,
   "window.openFoldersInNewWindow": "on",
   "window.reopenFolders": "all",
   "color-highlight.markerType": "dot-after",
