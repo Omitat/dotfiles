@@ -12,7 +12,7 @@ brew 'shellcheck'
 brew 'terminal-notifier'
 brew 'the_silver_searcher'
 brew 'unrar'
-brew 'vim', args: ['--override-system-vi']
+brew 'vim'
 brew 'wget'
 brew 'zsh'
 brew 'yarn'
