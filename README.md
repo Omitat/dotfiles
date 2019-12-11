@@ -1,4 +1,5 @@
 # Dotfiles
+
 > My own macOS preferences and configurations for ZSH, Java, Docker, Terminals and others.
 
 ![screenshot][scrn]
@@ -25,7 +26,7 @@ awesome, you might want to [read Caarlos0 post on the subject][post].
 Run this:
 
 ```sh
-bash -c "$(wget -O - https://raw.githubusercontent.com/dwest-teo/dotfiles/master/script/install)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/omitat/dotfiles/master/script/install)"
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
@@ -67,7 +68,7 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 - **topic/install.sh**: Any file with this name and with exec permission, will
-ran at bootstrap phase.
+  ran at bootstrap phase.
 
 ## plugins
 
@@ -100,6 +101,6 @@ $ docker run -it dotfiles
 
 It will start a fresh container with my dotfiles inside and dumb git credentials.
 
-
 ## Thank you!
-Much of the stuff in these dotfiles has been inspired, borrowed, or straight up lifted from the awesome configs other folks have shared through the years.  Thanks especially to [marceldiass](http://github.com/marceldiass), [caarlos0](http://github.com/caarlos0), and [holman](http://github.com/holman)!
+
+Much of the stuff in these dotfiles has been inspired, borrowed, or straight up lifted from the awesome configs other folks have shared through the years. Thanks especially to [marceldiass](http://github.com/marceldiass), [caarlos0](http://github.com/caarlos0), and [holman](http://github.com/holman)!
