@@ -37,6 +37,7 @@
   "editor.renderWhitespace": "boundary",
   "editor.renderIndentGuides": true,
   "editor.cursorBlinking": "phase",
+  "editor.fontSize": 16,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "terminal.external.osxExec": "iTerm.app",
