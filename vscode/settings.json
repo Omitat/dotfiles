@@ -81,7 +81,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "typescript.check.npmIsInstalled": false,
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 0.25,
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
