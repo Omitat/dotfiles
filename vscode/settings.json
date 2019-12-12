@@ -80,6 +80,8 @@
   "workbench.colorTheme": "Snazzy Operator",
   "workbench.iconTheme": "material-icon-theme",
   "typescript.check.npmIsInstalled": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
   "git.enableSmartCommit": true,
   "window.zoomLevel": 0.25,
   "peacock.favoriteColors": [
