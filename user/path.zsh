@@ -1,2 +1,2 @@
 #!/bin/sh
-# export CONTAAZUL_HOME='/code/contaazul'
+export PATH="/usr/local/sbin:$PATH"'
